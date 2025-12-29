@@ -1,82 +1,82 @@
 <mxfile host="Electron" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.0.3 Chrome/140.0.7339.249 Electron/38.7.0 Safari/537.36" version="29.0.3">
   <diagram name="Page-1" id="abimi33jGa6IJ0X9tpb9">
-    <mxGraphModel dx="2206" dy="1342" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="761" dy="463" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="Xx6AtnHQ-ewiPKradeZL-1" value="Account" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="534" y="252" width="210" height="270" as="geometry" />
+        <mxCell id="Xx6AtnHQ-ewiPKradeZL-1" value="Account" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="534" y="252" width="210" height="290" as="geometry" />
         </mxCell>
-        <mxCell id="Xx6AtnHQ-ewiPKradeZL-2" value="&lt;div&gt;- bvnNumber: int&lt;/div&gt;&lt;div&gt;- numbaNumber: int&lt;/div&gt;- accountName: String&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;- accountNumber: int&lt;/span&gt;&lt;/div&gt;&lt;div&gt;- password: String&lt;/div&gt;&lt;div&gt;- accountBalance: int&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Xx6AtnHQ-ewiPKradeZL-1">
-          <mxGeometry y="26" width="210" height="94" as="geometry" />
+        <mxCell id="Xx6AtnHQ-ewiPKradeZL-2" value="&lt;div&gt;- bvnNumber: String&lt;/div&gt;&lt;div&gt;- numbaNumber: String&lt;/div&gt;- accountName: String&lt;div&gt;- email: String&lt;br&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;- accountNumber: String&lt;/span&gt;&lt;/div&gt;&lt;div&gt;- password: String&lt;/div&gt;&lt;div&gt;- accountBalance: int&lt;/div&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="Xx6AtnHQ-ewiPKradeZL-1" vertex="1">
+          <mxGeometry y="26" width="210" height="114" as="geometry" />
         </mxCell>
-        <mxCell id="Xx6AtnHQ-ewiPKradeZL-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="Xx6AtnHQ-ewiPKradeZL-1">
-          <mxGeometry y="120" width="210" height="8" as="geometry" />
+        <mxCell id="Xx6AtnHQ-ewiPKradeZL-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="Xx6AtnHQ-ewiPKradeZL-1" vertex="1">
+          <mxGeometry y="140" width="210" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="Xx6AtnHQ-ewiPKradeZL-4" value="+ setAccountNumber(int): void&lt;div&gt;+ getAccountNumber(): int&lt;/div&gt;&lt;div&gt;+ setAccountName(String): void&lt;div&gt;+ getAccountName(): String&lt;/div&gt;&lt;div&gt;&lt;div&gt;+ setPassword(String): void&lt;div&gt;+ getPassword(): String&lt;/div&gt;&lt;div&gt;+ deposit(int): void&lt;div&gt;+ withdraw(int): void&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;+ getAccountBalance(): int&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Xx6AtnHQ-ewiPKradeZL-1">
-          <mxGeometry y="128" width="210" height="142" as="geometry" />
+        <mxCell id="Xx6AtnHQ-ewiPKradeZL-4" value="+ setAccountNumber(int): void&lt;div&gt;+ getAccountNumber(): int&lt;/div&gt;&lt;div&gt;+ setAccountName(String): void&lt;div&gt;+ getAccountName(): String&lt;/div&gt;&lt;div&gt;&lt;div&gt;+ setPassword(String): void&lt;div&gt;+ getPassword(): String&lt;/div&gt;&lt;div&gt;+ deposit(int): void&lt;div&gt;+ withdraw(int): void&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;+ getAccountBalance(): int&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="Xx6AtnHQ-ewiPKradeZL-1" vertex="1">
+          <mxGeometry y="148" width="210" height="142" as="geometry" />
         </mxCell>
-        <mxCell id="Xx6AtnHQ-ewiPKradeZL-5" value="Bank" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="220" y="500" width="210" height="150" as="geometry" />
+        <mxCell id="Xx6AtnHQ-ewiPKradeZL-5" value="Bank" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="220" y="500" width="210" height="180" as="geometry" />
         </mxCell>
-        <mxCell id="Xx6AtnHQ-ewiPKradeZL-6" value="&lt;div&gt;- bankCode: int&lt;/div&gt;&lt;div&gt;- bankName: String&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Xx6AtnHQ-ewiPKradeZL-5">
-          <mxGeometry y="26" width="210" height="44" as="geometry" />
+        <mxCell id="Xx6AtnHQ-ewiPKradeZL-6" value="&lt;div&gt;- bankID: int&lt;/div&gt;&lt;div&gt;- bankCode: int&lt;/div&gt;&lt;div&gt;- bankName: String&lt;/div&gt;&lt;div&gt;- accounts : ArrayList&amp;lt;Account&amp;gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="Xx6AtnHQ-ewiPKradeZL-5" vertex="1">
+          <mxGeometry y="26" width="210" height="74" as="geometry" />
         </mxCell>
-        <mxCell id="Xx6AtnHQ-ewiPKradeZL-7" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="Xx6AtnHQ-ewiPKradeZL-5">
-          <mxGeometry y="70" width="210" height="8" as="geometry" />
+        <mxCell id="Xx6AtnHQ-ewiPKradeZL-7" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="Xx6AtnHQ-ewiPKradeZL-5" vertex="1">
+          <mxGeometry y="100" width="210" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="Xx6AtnHQ-ewiPKradeZL-8" value="+ setBankName(String): void&lt;div&gt;+ getBankNamer(): String&lt;/div&gt;&lt;div&gt;+ setBankCode(int): void&lt;div&gt;+ getBankCode(): int&lt;/div&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Xx6AtnHQ-ewiPKradeZL-5">
-          <mxGeometry y="78" width="210" height="72" as="geometry" />
+        <mxCell id="Xx6AtnHQ-ewiPKradeZL-8" value="+ setBankName(String): void&lt;div&gt;+ getBankNamer(): String&lt;/div&gt;&lt;div&gt;+ setBankCode(int): void&lt;div&gt;+ getBankCode(): int&lt;/div&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="Xx6AtnHQ-ewiPKradeZL-5" vertex="1">
+          <mxGeometry y="108" width="210" height="72" as="geometry" />
         </mxCell>
-        <mxCell id="Xx6AtnHQ-ewiPKradeZL-9" value="CreditCard" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Xx6AtnHQ-ewiPKradeZL-9" value="CreditCard" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="850" y="150" width="210" height="270" as="geometry" />
         </mxCell>
-        <mxCell id="Xx6AtnHQ-ewiPKradeZL-10" value="- cardID: int&lt;div&gt;- bankName: String&lt;/div&gt;&lt;div&gt;- accountID: int&lt;/div&gt;&lt;div&gt;- cardNumber: int&lt;/div&gt;&lt;div&gt;- cardType: String&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Xx6AtnHQ-ewiPKradeZL-9">
+        <mxCell id="Xx6AtnHQ-ewiPKradeZL-10" value="- cardID: int&lt;div&gt;- bankName: String&lt;/div&gt;&lt;div&gt;- accountID: int&lt;/div&gt;&lt;div&gt;- cardNumber: int&lt;/div&gt;&lt;div&gt;- cardType: String&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="Xx6AtnHQ-ewiPKradeZL-9" vertex="1">
           <mxGeometry y="26" width="210" height="84" as="geometry" />
         </mxCell>
-        <mxCell id="Xx6AtnHQ-ewiPKradeZL-11" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="Xx6AtnHQ-ewiPKradeZL-9">
+        <mxCell id="Xx6AtnHQ-ewiPKradeZL-11" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="Xx6AtnHQ-ewiPKradeZL-9" vertex="1">
           <mxGeometry y="110" width="210" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="Xx6AtnHQ-ewiPKradeZL-12" value="+ setCardID(int): void&lt;div&gt;+ setBankName(String): void&lt;/div&gt;&lt;div&gt;+ setAccountID(int): void&lt;/div&gt;&lt;div&gt;+ setCardNumber(int): void&lt;/div&gt;&lt;div&gt;+ setCardType(String): void&lt;/div&gt;&lt;div&gt;+ getCardID(): int&lt;div&gt;+ getBankName():&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;String&lt;/span&gt;&lt;/div&gt;&lt;div&gt;+ getAccountID():&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;int&lt;/span&gt;&lt;/div&gt;&lt;div&gt;+ getCardNumber():&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;int&lt;/span&gt;&lt;/div&gt;&lt;div&gt;+ getCardType():&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;String&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Xx6AtnHQ-ewiPKradeZL-9">
+        <mxCell id="Xx6AtnHQ-ewiPKradeZL-12" value="+ setCardID(int): void&lt;div&gt;+ setBankName(String): void&lt;/div&gt;&lt;div&gt;+ setAccountID(int): void&lt;/div&gt;&lt;div&gt;+ setCardNumber(int): void&lt;/div&gt;&lt;div&gt;+ setCardType(String): void&lt;/div&gt;&lt;div&gt;+ getCardID(): int&lt;div&gt;+ getBankName():&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;String&lt;/span&gt;&lt;/div&gt;&lt;div&gt;+ getAccountID():&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;int&lt;/span&gt;&lt;/div&gt;&lt;div&gt;+ getCardNumber():&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;int&lt;/span&gt;&lt;/div&gt;&lt;div&gt;+ getCardType():&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;String&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="Xx6AtnHQ-ewiPKradeZL-9" vertex="1">
           <mxGeometry y="118" width="210" height="152" as="geometry" />
         </mxCell>
-        <mxCell id="Xx6AtnHQ-ewiPKradeZL-13" value="BVNGenerator" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Xx6AtnHQ-ewiPKradeZL-13" value="BVNGenerator" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="850" y="530" width="210" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="Xx6AtnHQ-ewiPKradeZL-14" value="- bvnNumber: int&lt;div&gt;- userID: int&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Xx6AtnHQ-ewiPKradeZL-13">
+        <mxCell id="Xx6AtnHQ-ewiPKradeZL-14" value="- bvnNumber: int&lt;div&gt;- userID: int&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="Xx6AtnHQ-ewiPKradeZL-13" vertex="1">
           <mxGeometry y="26" width="210" height="34" as="geometry" />
         </mxCell>
-        <mxCell id="Xx6AtnHQ-ewiPKradeZL-15" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="Xx6AtnHQ-ewiPKradeZL-13">
+        <mxCell id="Xx6AtnHQ-ewiPKradeZL-15" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="Xx6AtnHQ-ewiPKradeZL-13" vertex="1">
           <mxGeometry y="60" width="210" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="Xx6AtnHQ-ewiPKradeZL-16" value="+ setBVNNumber(int): void&lt;div&gt;+ setUserID(int): void&lt;/div&gt;&lt;div&gt;+ getBVNNumber(): int&lt;/div&gt;&lt;div&gt;+ getUserID(): int&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Xx6AtnHQ-ewiPKradeZL-13">
+        <mxCell id="Xx6AtnHQ-ewiPKradeZL-16" value="+ setBVNNumber(int): void&lt;div&gt;+ setUserID(int): void&lt;/div&gt;&lt;div&gt;+ getBVNNumber(): int&lt;/div&gt;&lt;div&gt;+ getUserID(): int&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="Xx6AtnHQ-ewiPKradeZL-13" vertex="1">
           <mxGeometry y="68" width="210" height="72" as="geometry" />
         </mxCell>
-        <mxCell id="Xx6AtnHQ-ewiPKradeZL-17" value="NUMBAGenerator" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Xx6AtnHQ-ewiPKradeZL-17" value="NUMBAGenerator" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="850" y="770" width="210" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="Xx6AtnHQ-ewiPKradeZL-18" value="- numbaNumber: int&lt;div&gt;- userID: int&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Xx6AtnHQ-ewiPKradeZL-17">
+        <mxCell id="Xx6AtnHQ-ewiPKradeZL-18" value="- numbaNumber: int&lt;div&gt;- userID: int&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="Xx6AtnHQ-ewiPKradeZL-17" vertex="1">
           <mxGeometry y="26" width="210" height="44" as="geometry" />
         </mxCell>
-        <mxCell id="Xx6AtnHQ-ewiPKradeZL-19" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="Xx6AtnHQ-ewiPKradeZL-17">
+        <mxCell id="Xx6AtnHQ-ewiPKradeZL-19" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="Xx6AtnHQ-ewiPKradeZL-17" vertex="1">
           <mxGeometry y="70" width="210" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="Xx6AtnHQ-ewiPKradeZL-20" value="+ setNUMBANumber(int): void&lt;div&gt;+ setUserID(int): void&lt;/div&gt;&lt;div&gt;+ getNUMBANumber(): int&lt;/div&gt;&lt;div&gt;+ getUserID(): int&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Xx6AtnHQ-ewiPKradeZL-17">
+        <mxCell id="Xx6AtnHQ-ewiPKradeZL-20" value="+ setNUMBANumber(int): void&lt;div&gt;+ setUserID(int): void&lt;/div&gt;&lt;div&gt;+ getNUMBANumber(): int&lt;/div&gt;&lt;div&gt;+ getUserID(): int&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="Xx6AtnHQ-ewiPKradeZL-17" vertex="1">
           <mxGeometry y="78" width="210" height="72" as="geometry" />
         </mxCell>
-        <mxCell id="Xx6AtnHQ-ewiPKradeZL-21" value="User" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Xx6AtnHQ-ewiPKradeZL-21" value="User" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="534" y="630" width="210" height="190" as="geometry" />
         </mxCell>
-        <mxCell id="Xx6AtnHQ-ewiPKradeZL-22" value="&lt;div&gt;- userID: int&lt;/div&gt;- name: String&lt;div&gt;- accounts: ListOfAccount&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Xx6AtnHQ-ewiPKradeZL-21">
+        <mxCell id="Xx6AtnHQ-ewiPKradeZL-22" value="&lt;div&gt;- userID: int&lt;/div&gt;- name: String&lt;div&gt;- accounts: ListOfAccount&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="Xx6AtnHQ-ewiPKradeZL-21" vertex="1">
           <mxGeometry y="26" width="210" height="54" as="geometry" />
         </mxCell>
-        <mxCell id="Xx6AtnHQ-ewiPKradeZL-23" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="Xx6AtnHQ-ewiPKradeZL-21">
+        <mxCell id="Xx6AtnHQ-ewiPKradeZL-23" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="Xx6AtnHQ-ewiPKradeZL-21" vertex="1">
           <mxGeometry y="80" width="210" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="Xx6AtnHQ-ewiPKradeZL-24" value="+ setUserID(int): void&lt;div&gt;+ getUserID(): int&lt;/div&gt;&lt;div&gt;+ setName(String): void&lt;div&gt;+ getName(): String&lt;/div&gt;&lt;/div&gt;&lt;div&gt;+ getBankAccount(): Account&lt;/div&gt;&lt;div&gt;+ openBankAccount(Account): void&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Xx6AtnHQ-ewiPKradeZL-21">
+        <mxCell id="Xx6AtnHQ-ewiPKradeZL-24" value="+ setUserID(int): void&lt;div&gt;+ getUserID(): int&lt;/div&gt;&lt;div&gt;+ setName(String): void&lt;div&gt;+ getName(): String&lt;/div&gt;&lt;/div&gt;&lt;div&gt;+ getBankAccount(): Account&lt;/div&gt;&lt;div&gt;+ openBankAccount(Account): void&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="Xx6AtnHQ-ewiPKradeZL-21" vertex="1">
           <mxGeometry y="88" width="210" height="102" as="geometry" />
         </mxCell>
-        <mxCell id="Xx6AtnHQ-ewiPKradeZL-28" value="" style="endArrow=diamondThin;endFill=1;endSize=24;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="Xx6AtnHQ-ewiPKradeZL-28" value="" style="endArrow=diamondThin;endFill=1;endSize=24;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="660" y="820" as="sourcePoint" />
             <mxPoint x="850" y="870" as="targetPoint" />
@@ -85,17 +85,17 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Xx6AtnHQ-ewiPKradeZL-29" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Xx6AtnHQ-ewiPKradeZL-28">
+        <mxCell id="Xx6AtnHQ-ewiPKradeZL-29" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="Xx6AtnHQ-ewiPKradeZL-28" vertex="1" connectable="0">
           <mxGeometry x="-0.9704" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Xx6AtnHQ-ewiPKradeZL-30" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Xx6AtnHQ-ewiPKradeZL-28">
+        <mxCell id="Xx6AtnHQ-ewiPKradeZL-30" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="Xx6AtnHQ-ewiPKradeZL-28" vertex="1" connectable="0">
           <mxGeometry x="0.9686" y="-1" relative="1" as="geometry">
             <mxPoint x="2" y="11" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Xx6AtnHQ-ewiPKradeZL-31" value="" style="endArrow=diamondThin;endFill=1;endSize=24;html=1;rounded=0;exitX=0.55;exitY=0.01;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+        <mxCell id="Xx6AtnHQ-ewiPKradeZL-31" value="" style="endArrow=diamondThin;endFill=1;endSize=24;html=1;rounded=0;exitX=0.55;exitY=0.01;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="658.5" y="630.9000000000001" as="sourcePoint" />
             <mxPoint x="849" y="584" as="targetPoint" />
@@ -104,33 +104,33 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Xx6AtnHQ-ewiPKradeZL-32" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Xx6AtnHQ-ewiPKradeZL-31">
+        <mxCell id="Xx6AtnHQ-ewiPKradeZL-32" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="Xx6AtnHQ-ewiPKradeZL-31" vertex="1" connectable="0">
           <mxGeometry x="-0.9704" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Xx6AtnHQ-ewiPKradeZL-33" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Xx6AtnHQ-ewiPKradeZL-31">
+        <mxCell id="Xx6AtnHQ-ewiPKradeZL-33" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="Xx6AtnHQ-ewiPKradeZL-31" vertex="1" connectable="0">
           <mxGeometry x="0.9686" y="-1" relative="1" as="geometry">
             <mxPoint x="2" y="11" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Xx6AtnHQ-ewiPKradeZL-34" value="" style="endArrow=diamondThin;endFill=0;endSize=24;html=1;rounded=0;exitX=0.184;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.191;entryY=1.028;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Xx6AtnHQ-ewiPKradeZL-21" target="Xx6AtnHQ-ewiPKradeZL-4">
+        <mxCell id="Xx6AtnHQ-ewiPKradeZL-34" value="" style="endArrow=diamondThin;endFill=0;endSize=24;html=1;rounded=0;exitX=0.184;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.191;entryY=1.028;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="Xx6AtnHQ-ewiPKradeZL-21" target="Xx6AtnHQ-ewiPKradeZL-4" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="670" y="570" as="sourcePoint" />
             <mxPoint x="830" y="570" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Xx6AtnHQ-ewiPKradeZL-35" value="*" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Xx6AtnHQ-ewiPKradeZL-34">
+        <mxCell id="Xx6AtnHQ-ewiPKradeZL-35" value="*" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="Xx6AtnHQ-ewiPKradeZL-34" vertex="1" connectable="0">
           <mxGeometry x="0.9202" y="-2" relative="1" as="geometry">
             <mxPoint x="6" y="-3" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Xx6AtnHQ-ewiPKradeZL-36" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Xx6AtnHQ-ewiPKradeZL-34">
+        <mxCell id="Xx6AtnHQ-ewiPKradeZL-36" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="Xx6AtnHQ-ewiPKradeZL-34" vertex="1" connectable="0">
           <mxGeometry x="-0.8915" relative="1" as="geometry">
             <mxPoint x="7" y="3" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Xx6AtnHQ-ewiPKradeZL-37" value="" style="endArrow=diamondThin;endFill=0;endSize=24;html=1;rounded=0;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Xx6AtnHQ-ewiPKradeZL-5" target="Xx6AtnHQ-ewiPKradeZL-2">
+        <mxCell id="Xx6AtnHQ-ewiPKradeZL-37" value="" style="endArrow=diamondThin;endFill=0;endSize=24;html=1;rounded=0;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="Xx6AtnHQ-ewiPKradeZL-5" target="Xx6AtnHQ-ewiPKradeZL-2" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="450" y="450" as="sourcePoint" />
             <mxPoint x="610" y="450" as="targetPoint" />
@@ -139,17 +139,17 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Xx6AtnHQ-ewiPKradeZL-38" value="*" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Xx6AtnHQ-ewiPKradeZL-37">
+        <mxCell id="Xx6AtnHQ-ewiPKradeZL-38" value="*" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="Xx6AtnHQ-ewiPKradeZL-37" vertex="1" connectable="0">
           <mxGeometry x="0.9692" y="2" relative="1" as="geometry">
             <mxPoint x="7" y="-9" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Xx6AtnHQ-ewiPKradeZL-39" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Xx6AtnHQ-ewiPKradeZL-37">
+        <mxCell id="Xx6AtnHQ-ewiPKradeZL-39" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="Xx6AtnHQ-ewiPKradeZL-37" vertex="1" connectable="0">
           <mxGeometry x="-0.9778" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Xx6AtnHQ-ewiPKradeZL-43" value="" style="endArrow=diamondThin;endFill=0;endSize=24;html=1;rounded=0;entryX=1.005;entryY=0.776;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="Xx6AtnHQ-ewiPKradeZL-22">
+        <mxCell id="Xx6AtnHQ-ewiPKradeZL-43" value="" style="endArrow=diamondThin;endFill=0;endSize=24;html=1;rounded=0;entryX=1.005;entryY=0.776;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="Xx6AtnHQ-ewiPKradeZL-22" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="1060" y="330" as="sourcePoint" />
             <mxPoint x="810" y="480" as="targetPoint" />
@@ -161,12 +161,12 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Xx6AtnHQ-ewiPKradeZL-44" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Xx6AtnHQ-ewiPKradeZL-43">
+        <mxCell id="Xx6AtnHQ-ewiPKradeZL-44" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="Xx6AtnHQ-ewiPKradeZL-43" vertex="1" connectable="0">
           <mxGeometry x="0.9947" y="-1" relative="1" as="geometry">
             <mxPoint x="-3" y="-12" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Xx6AtnHQ-ewiPKradeZL-45" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Xx6AtnHQ-ewiPKradeZL-43">
+        <mxCell id="Xx6AtnHQ-ewiPKradeZL-45" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="Xx6AtnHQ-ewiPKradeZL-43" vertex="1" connectable="0">
           <mxGeometry x="-0.9936" relative="1" as="geometry">
             <mxPoint x="-3" y="-11" as="offset" />
           </mxGeometry>

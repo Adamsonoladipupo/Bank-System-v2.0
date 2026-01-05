@@ -5,10 +5,35 @@ import java.util.ArrayList;
 public class User {
     private String userID;
     private String name;
+    private String email;
     private ArrayList <Account> accounts = new ArrayList<>();
     private BVN bvn;
+    private static int idNumbers = 0;
 
     public User (){}
+
+    public User (String name, String email){
+        this.name = name;
+        this.email = email;
+        this.userID = generateUserID();
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
+    private String generateUserID(){
+        idNumbers++;
+        return String.valueOf(idNumbers);
+    }
+
+    public static int getIdNumbers(){
+        return idNumbers;
+    }
 
     public String getUserID() {
         return userID;

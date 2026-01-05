@@ -1,12 +1,13 @@
-package entities;
+package data.models;
 
 import java.util.ArrayList;
 
 public class Bank {
     private String bankID;
     private int bankCode ;
-    private static final int CENTRAL_BANK_CODE = 12345;
+    private static final int CENTRAL_BANK_CODE = 123;
     private String bankName;
+    private int bankBranchNumber = 512;
     private ArrayList <Account> registeredAccounts = new ArrayList<>();
     private static int counter;
 
@@ -17,25 +18,13 @@ public class Bank {
         this.bankID = generateBankID();
     }
 
-    private String generateBankID() {
-        return "BNK" + counter;
-    }
-
-    private int generateBankCode(){
-        return Bank.CENTRAL_BANK_CODE + counter;
-    }
-
-    private String generateAccountNumber(Account account, int bankCode){
-        return  "0" + account.getAccountID() + bankCode;
-    }
-
     public static int getCounter(){
         return counter;
     }
 
-    public void createAccount(String name, String email , String password) {
-        Account account = new Account(name, email, password);
-        account.setAccountNumber(generateAccountNumber(account, this.bankCode));
+    public void registerAnAccount(Account account) {
+        account.setAccountNumber(generateAccountNumber(account));
+        account.setNumbaNumber(generateNumbaNumber(account));
         registeredAccounts.add(account);
     }
 
@@ -61,6 +50,25 @@ public class Bank {
 
     public ArrayList<Account> getRegisteredAccounts() {
         return registeredAccounts;
+    }
+
+    private String generateBankID() {
+        return "BNK" + counter;
+    }
+
+    private int generateBankCode(){
+        return Bank.CENTRAL_BANK_CODE + counter;
+    }
+
+    private String generateAccountNumber(Account account){
+        String newAccountNumber = String.valueOf(this.bankBranchNumber) + account.getAccountType() + account.getAccountID();
+        return  newAccountNumber;
+    }
+
+    private String generateNumbaNumber(Account account){
+        int accountSerialNumber = Integer.valueOf(account.getAccountID());
+        NUMBA numba = new NUMBA(this.bankCode, accountSerialNumber);
+        return  numba.getNumba();
     }
 
 }

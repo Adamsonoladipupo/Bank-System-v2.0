@@ -1,4 +1,4 @@
-package entities;
+package data.models;
 
 public class BVN {
     private String bvnNumber;

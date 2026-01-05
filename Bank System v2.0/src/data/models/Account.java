@@ -1,4 +1,4 @@
-package entities;
+package data.models;
 
 import exceptions.InsufficientFundsException;
 import exceptions.InvalidEmailAddressException;
@@ -14,7 +14,8 @@ public class Account {
     private String email;
     private String password;
     private int accountBalance;
-    private static final int GENRATE_ID = 1101;
+    private int savingsAccountType = 1;
+    private static final int GENRATE_ID = 110100;
     private static int count;
 
 
@@ -27,9 +28,14 @@ public class Account {
         this.accountBalance = 0;
     }
 
+
     private static String generateAccountID(){
         count++;
         return count + GENRATE_ID + "";
+    }
+
+    public String getAccountType(){
+        return String.valueOf(this.savingsAccountType);
     }
 
     public String getAccountID(){

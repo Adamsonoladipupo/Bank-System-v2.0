@@ -1,5 +1,6 @@
-package entities;
+package model;
 
+import data.models.Account;
 import exceptions.InsufficientFundsException;
 import exceptions.InvalidEmailAddressException;
 import exceptions.NegativeAmountException;

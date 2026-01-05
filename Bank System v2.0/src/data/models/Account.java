@@ -28,10 +28,13 @@ public class Account {
         this.accountBalance = 0;
     }
 
+    public Account() {
 
-    private static String generateAccountID(){
-        count++;
-        return count + GENRATE_ID + "";
+    }
+
+    @Override
+    public String toString() {
+        return "ID: " + getAccountID() + "\n" +  "name: " + getAccountName() + "\n" + "Account Number : " + getAccountNumber() + "\n" + "Account Numba: " + getNumbaNumber() + "\n" + "Account Balance: " + getAccountBalance() + "\n" + "Linked BVN: " + getBvnNumber();
     }
 
     public String getAccountType(){
@@ -132,6 +135,11 @@ public class Account {
 
     public void validatePassword(String password){
         if (!this.password.equals(password)) throw new WrongPasswordException("you entered a wrong password");
+    }
+
+    private static String generateAccountID(){
+        count++;
+        return count + GENRATE_ID + "";
     }
 
 }

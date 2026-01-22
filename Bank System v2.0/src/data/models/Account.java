@@ -124,7 +124,7 @@ public class Account {
             if(character == '.') checkDot = true;
         }
         if (!checkAt == true || !checkDot == true){
-            throw new InvalidEmailAddressException("invalid emial, please enter a valid email");
+            throw new InvalidEmailAddressException("invalid email, please enter a valid email");
         }
     }
 

@@ -9,27 +9,29 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
+
 class BankTest {
-    Bank bank;
 
     @BeforeEach
     public void setUp(){
-        bank = new Bank("WorldBank");
     }
 
     @Test
     public void CheckIfBankHasNoAccountTest(){
-        assertEquals(0, Account.getCount());
+        Bank bank = new Bank("WorldBank");
+        assertEquals(0, bank.getNumberOfRegisteredAccount());
     }
 
     @Test
     public void registerANewAccountTest(){
+        Bank bank = new Bank("WorldBank");
         bank.createAnAccount("Adamson", "adamson@gmail.com", "password");
         assertEquals(1, bank.getNumberOfRegisteredAccount());
     }
 
     @Test
     public void FindAnExistingAccountWithItAccountNumberTest(){
+        Bank bank = new Bank("WorldBank");
         bank.createAnAccount("Adamson", "adamson@gmail.com", "password");
         Account account1 = new Account("Adamson", "adamson@gmail.com", "password");
         bank.registerAnAccount(account1);
@@ -40,6 +42,7 @@ class BankTest {
 
     @Test
     public void deposit500NairaIntoAnAccountTest(){
+        Bank bank = new Bank("WorldBank");
         Account account1 = new Account("Adamson", "adamson@gmail.com", "password");
         bank.registerAnAccount(account1);
         //System.out.print(account1.getAccountNumber());
@@ -49,6 +52,7 @@ class BankTest {
 
     @Test
     public void deposit500NairaIntoANonExistingAccountTest(){
+        Bank bank = new Bank("WorldBank");
         Account account1 = new Account("Adamson", "adamson@gmail.com", "password");
         bank.registerAnAccount(account1);
         assertThrows(NonExistingAccountError.class, ()-> bank.deposit("5", 500));
@@ -56,6 +60,7 @@ class BankTest {
 
     @Test
     public void makeA500NairaWithdrawFromAnExistingBankAccountTest(){
+        Bank bank = new Bank("WorldBank");
         Account account1 = new Account("Adamson", "adamson@gmail.com", "password");
         bank.registerAnAccount(account1);
         bank.deposit("5121110101", 1000);
@@ -66,6 +71,7 @@ class BankTest {
 
     @Test
     public void makeA500NairaWithdrawFromANonExistingBankAccountTest(){
+        Bank bank = new Bank("WorldBank");
         Account account1 = new Account("Adamson", "adamson@gmail.com", "password");
         bank.registerAnAccount(account1);
         bank.deposit("5121110101", 1000);
@@ -76,6 +82,7 @@ class BankTest {
 
     @Test
     public void makeA500NairaWithdrawalWithAWrongPasswordTest(){
+        Bank bank = new Bank("WorldBank");
         Account account1 = new Account("Adamson", "adamson@gmail.com", "password");
         bank.registerAnAccount(account1);
         bank.deposit("5121110101", 1000);
@@ -86,6 +93,7 @@ class BankTest {
 
     @Test
     public void transfer600NairaIntoAccountBFromAccountABydepositing1000ToAccountATest(){
+        Bank bank = new Bank("WorldBank");
         Account accountA = new Account("Adamson", "adamson@gmail.com", "password");
         Account accountB = new Account("Bola", "bola@gmail.com", "password");
         bank.registerAnAccount(accountA);
@@ -98,7 +106,6 @@ class BankTest {
         bank.transfer("5121110101", "5121110102", 600, "password");
         assertEquals(400, accountA.getAccountBalance());
         assertEquals(600, accountB.getAccountBalance());
-
     }
 
 

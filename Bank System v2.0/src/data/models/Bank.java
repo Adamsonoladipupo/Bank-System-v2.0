@@ -12,8 +12,10 @@ public class Bank{
     private int bankBranchNumber = 512;
     private ArrayList <Account> registeredAccounts = new ArrayList<>();
     private static int counter;
+    private int count = 0;
 
     public Bank(String name){
+        count++;
         counter++;
         this.bankName = name;
         this.bankCode = generateBankCode();
@@ -22,6 +24,10 @@ public class Bank{
 
     public static int getCounter(){
         return counter;
+    }
+
+    public int getCount() {
+        return count;
     }
 
     public void registerAnAccount(Account account){
